@@ -1,6 +1,7 @@
 **Network Topology Project Documentation**
 
 **Project Overview**
+
 This comprehensive networking project demonstrates the implementation of five fundamental network topologies along withan integrated hybrid topology.
 The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and basic security measures.
 
@@ -94,9 +95,13 @@ network and allows for tailored security policies for each department's specific
 - Basic web interface for monitoring
 
 **DNS Server**
+
  - Dual-stack DNS resolution
+   
  -Forward and reverse lookup zones
+ 
  -Forward and reverse lookup zones
+ 
  -Supports both IPv4 and IPv6 queries
 
 **Security Implementation**
