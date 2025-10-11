@@ -43,6 +43,14 @@ It takes the best features from different designs and merges them into one super
 
 <img width="1913" height="957" alt="babra_Mpofu_Hybrid!!" src="https://github.com/user-attachments/assets/4fc0e084-7811-4fe0-8cd7-51933be793a5" />
 
+**VLAN Segmentation**
+I assigned each topology to a specific VLANs to provide logical segmentation and security isolation between different network areas.
+This VLAN strategy ensures that devices within each topology can communicate efficiently while being isolated from other topologies, 
+enhancing both security and network performance. The Star topology in the Lecture Room uses VLAN 5, the Ring topology in the Office 
+uses VLAN 10, the Extended Star topology in the Science Building uses VLAN 15, the Mesh topology in the Computer Lab uses VLAN 20,
+and the Bus topology in the Library uses VLAN 25. This logical separation prevents broadcast storms from propagating across the entire
+network and allows for tailored security policies for each department's specific needs.
+
 
 
 
