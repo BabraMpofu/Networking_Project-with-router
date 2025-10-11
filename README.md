@@ -89,7 +89,7 @@ network and allows for tailored security policies for each department's specific
 containing all five VLANs, but individual ports are assigned to specific VLANs based on their topology and location. This approach 
 provides centralized VLAN management while maintaining logical segmentation.
 
-**VLAN Configued in a star topology
+**VLAN Status in a star topology**
 
 <img width="873" height="885" alt="VLAN CONFIGURED" src="https://github.com/user-attachments/assets/0ff99848-0fec-418b-9fe3-ab7201b925fc" />
 
