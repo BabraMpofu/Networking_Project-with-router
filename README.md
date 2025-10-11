@@ -110,10 +110,14 @@ network and allows for tailored security policies for each department's specific
 - VLAN access controls
 - Port security configurations
 
-**Security Configuration**
-**Router Password Configuration**
+**Testing and verification**
 
-<img width="867" height="848" alt="PASWORD SECURITY FOR ROUTER" src="https://github.com/user-attachments/assets/20530f44-91f5-47c5-82eb-f0d0c71ce904" />
+**Pinging IPv4**
+<img width="875" height="891" alt="pinging ipv4" src="https://github.com/user-attachments/assets/1c8b1f2a-e45c-4ea0-bfb0-be964af294ac" />
+
+**Pinging IPv6**
+<img width="871" height="885" alt="pinging IPV6" src="https://github.com/user-attachments/assets/04d7ca6c-046b-4af8-8488-1fcfc1a877ec" />
+
 
 **Conclusion**
 This project successfully demonstrates comprehensive network topology implementation with advanced features including dual-stack IP configuration, 
