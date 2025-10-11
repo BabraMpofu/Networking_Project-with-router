@@ -48,15 +48,14 @@ It takes the best features from different designs and merges them into one super
 
 <img width="1913" height="957" alt="babra_Mpofu_Hybrid!!" src="https://github.com/user-attachments/assets/4fc0e084-7811-4fe0-8cd7-51933be793a5" />
 
-Topology  	  |    Location	Gateway	IP Range	Subnet Mask	VLAN
-Star	        |  Lecture room	192.168.1.1	192.168.1.2-192.168.1.6	255.255.255.0	5
-Ring	       |   Office	192.168.2.1	192.168.2.2-192.168.2.5	255.255.255.0	10
-Extended Star 	Science building	192.168.3.1	192.168.3.2-192.168.3.5	255.255.255.0	15
-Mesh	          Computer lab	192.168.4.1	192.168.4.2-192.168.4.6	255.255.255.0	20
-Bus         	  Library	192.168.5.1	192.168.5.2-192.168.5.5	255.255.255.0	25
+**IP Address Tables**
 
+<img width="1248" height="605" alt="Ipv4 table" src="https://github.com/user-attachments/assets/94a489ed-929c-48c1-a5a5-43df6a07b4ea" />
+
+<img width="1140" height="718" alt="ipv6 table" src="https://github.com/user-attachments/assets/699edb25-d2d2-44b9-abbf-b5fcb566b02b" />
 
 **VLAN Segmentation**
+
 I assigned each topology to a specific VLANs to provide logical segmentation and security isolation between different network areas.
 This VLAN strategy ensures that devices within each topology can communicate efficiently while being isolated from other topologies, 
 enhancing both security and network performance. The Star topology in the Lecture Room uses VLAN 5, the Ring topology in the Office 
