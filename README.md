@@ -97,11 +97,9 @@ network and allows for tailored security policies for each department's specific
 **DNS Server**
 
  - Dual-stack DNS resolution
- -Forward and reverse lookup zones
- 
- -Forward and reverse lookup zones
- 
- -Supports both IPv4 and IPv6 queries
+ - Forward and reverse lookup zones
+ - Forward and reverse lookup zones
+ - Supports both IPv4 and IPv6 queries
 
 **Security Implementation**
 
