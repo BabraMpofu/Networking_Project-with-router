@@ -72,9 +72,9 @@ network and allows for tailored security policies for each department's specific
 
 **DNS Server**
 - Dual-stack DNS resolution
-*Forward and reverse lookup zones
-*Forward and reverse lookup zones
-*Supports both IPv4 and IPv6 queries
+-Forward and reverse lookup zones
+-Forward and reverse lookup zones
+-Supports both IPv4 and IPv6 queries
 
 **Security Implementation**
 
@@ -89,7 +89,12 @@ network and allows for tailored security policies for each department's specific
 - VLAN access controls
 - Port security configurations
 
+**Security Configuration**
+**Router  and Middle switch Password Configuration**
+<img width="867" height="848" alt="PASWORD SECURITY FOR ROUTER" src="https://github.com/user-attachments/assets/20530f44-91f5-47c5-82eb-f0d0c71ce904" />
 
-
-
+**Conclusion**
+This project successfully demonstrates comprehensive network topology implementation with advanced features including dual-stack IP configuration, 
+VLAN segmentation, and basic security measures. The hybrid topology shows effective integration of multiple network designs for optimal performance
+and reliability in a real-world educational institution scenario.
 
