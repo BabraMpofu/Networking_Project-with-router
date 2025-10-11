@@ -87,6 +87,10 @@ uses VLAN 10, the Extended Star topology in the Science Building uses VLAN 15, t
 and the Bus topology in the Library uses VLAN 25. This logical separation prevents broadcast storms from propagating across the entire
 network and allows for tailored security policies for each department's specific needs.
 
+**VLAN Configued in a star topology
+
+<img width="873" height="885" alt="VLAN CONFIGURED" src="https://github.com/user-attachments/assets/0ff99848-0fec-418b-9fe3-ab7201b925fc" />
+
 **Services Implemented**
 
 **HTTP Server**
