@@ -12,12 +12,14 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 
 **Key Features**:
 -Single backbone cable connecting all nodes
+
 -Data travels in both directions but only one device can send at a time
+
 -Cost-effective but single point of failure
             
 
 2. **Mesh Topology**
-** Layout** : Fully connected network where each device connects to every other device.
+Layout** : Fully connected network where each device connects to every other device.
 **Key Features** :
 -Multiple paths for data transmission
 -High cabling complexity and cost
