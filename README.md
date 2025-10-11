@@ -19,32 +19,48 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
             
 
 2. **Mesh Topology**
-Layout** : Fully connected network where each device connects to every other device.
-**Key Features** :
--Multiple paths for data transmission
--High cabling complexity and cost
--High redundancy and reliability
+   - **Layout** : Fully connected network where each device connects to every other device.
+    
+   - **Key Features** :
+    
+      *Multiple paths for data transmission
+    
+      *High cabling complexity and cost
+    
+      *High redundancy and reliability
   
-4. **Star Topology**
-**Layout**: All devices connect to a cental switch.
-**Key Features**:
--Centralized management
--Easy to troubleshoot
--Single point of failure at the center
+3. **Star Topology**
+    - **Layout**: All devices connect to a cental switch.
+  
+   - **Key Features**:
+  
+      *Centralized management
+  
+      *Easy to troubleshoot
+  
+      *Single point of failure at the center
 
 4. **Ring Topology**
-**Layout** : Each device connects to two others, forming a closed loop.
-**Key Features**:
--Equal access to all devices
--Unidirectional or bidirectional data flow
--Token passing mechanism
+    - **Layout** : Each device connects to two others, forming a closed loop.
+      
+    - **Key Features**:
+      
+       *Equal access to all devices
+      
+       *Unidirectional or bidirectional data flow
+      
+       *Token passing mechanism
 
 5. **Extended Star Topology**
-**Layout** : Hierarchical star topology with multiple levels of switches.
-**key Features**:
--Multiple layers of hierarchy
--Scalable design
--Improved fault isolation
+    - **Layout** : Hierarchical star topology with multiple levels of switches.
+      
+    - **key Features**:
+      
+       *Multiple layers of hierarchy
+      
+       *Scalable design
+      
+       *Improved fault isolation
 
 **Hybrid Topology**
 -A hybrid topology combines all different network topologies together to create a more efficient and reliable network. 
