@@ -18,7 +18,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 
      *Cost-effective but single point of failure
 
-2. **Mesh Topology**
+2.**Mesh Topology**
    - **Layout** : Fully connected network where each device connects to every other device.
     
    - **Key Features** :
@@ -29,7 +29,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
     
       *High redundancy and reliability
 
-3. **Star Topology**
+3.**Star Topology**
    - **Layout**: All devices connect to a cental switch.
   
    - **Key Features**:
@@ -40,7 +40,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
   
       *Single point of failure at the center
 
-4. **Ring Topology**
+4.**Ring Topology**
    - **Layout** : Each device connects to two others, forming a closed loop.
       
    - **Key Features**:
@@ -51,7 +51,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
       
        *Token passing mechanism
 
-5. **Extended Star Topology**
+5.**Extended Star Topology**
    - **Layout** : Hierarchical star topology with multiple levels of switches.
       
    - **key Features**:
