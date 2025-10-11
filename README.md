@@ -94,18 +94,19 @@ network and allows for tailored security policies for each department's specific
 - Basic web interface for monitoring
 
 **DNS Server**
-- Dual-stack DNS resolution
--Forward and reverse lookup zones
--Forward and reverse lookup zones
--Supports both IPv4 and IPv6 queries
+ - Dual-stack DNS resolution
+ -Forward and reverse lookup zones
+ -Forward and reverse lookup zones
+ -Supports both IPv4 and IPv6 queries
 
 **Security Implementation**
 
 **Basic Security Measures**
+
 1.**Router Secutity**
--Console password
--Enable secret password
--SSH/Telnet access restrictions
+ -Console password
+ -Enable secret password
+ -SSH/Telnet access restrictions
 
 2.**Switch Security:**
 - Central switch password protection
