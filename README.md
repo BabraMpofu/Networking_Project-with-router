@@ -41,6 +41,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 -A hybrid topology combines all different network topologies together to create a more efficient and reliable network. 
 It takes the best features from different designs and merges them into one superior network structure.
 
+<img width="1913" height="957" alt="babra_Mpofu_Hybrid!!" src="https://github.com/user-attachments/assets/4fc0e084-7811-4fe0-8cd7-51933be793a5" />
 
 
 
