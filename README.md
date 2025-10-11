@@ -7,9 +7,10 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 **Five Topologies**
 
 1.**Bus Topology**
+
 **Layout** :Linear network where all devices share a single communication line.
+
 **Key Features**:
-  
 -Single backbone cable connecting all nodes
 -Data travels in both directions but only one device can send at a time
 -Cost-effective but single point of failure
