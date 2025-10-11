@@ -8,26 +8,39 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 
 1.**Bus Topology**
 - Layout :Linear network where all devices share a single communication line.
+- Key Features: *Single backbone cable connecting all nodes
+                *Data travels in both directions but only one device can send at a time
+                *Cost-effective but single point of failure
             
 
 2. **Mesh Topology**
 - Layout : Fully connected network where each device connects to every other device.
-
+- Key Features : *Multiple paths for data transmission
+                 *High cabling complexity and cost
+                 *High redundancy and reliability
+  
 3. **Star Topology**
 - Layout: All devices connect to a cental switch.
+- Key Features: *Centralized management
+                *Easy to troubleshoot
+                *Single point of failure at the center
 
 4. **Ring Topology**
 - Layout : Each device connects to two others, forming a closed loop.
+- Key Features: *Equal access to all devices
+                *Unidirectional or bidirectional data flow
+                *Token passing mechanism
 
 5. **Extended Star Topology**
 - Layout : Hierarchical star topology with multiple levels of switches.
-
+- key Features: *Multiple layers of hierarchy
+                *Scalable design
+                *Improved fault isolation
 
 **Hybrid Topology**
 -A hybrid topology combines all different network topologies together to create a more efficient and reliable network. 
 It takes the best features from different designs and merges them into one superior network structure.
 
-<img width="1912" height="1018" alt="babra_Mpofu_Hybrid" src="https://github.com/user-attachments/assets/95b848d2-a39f-4090-896f-41820f75331a" />
 
 
 
