@@ -7,41 +7,41 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 **Five Topologies**
 
 1.**Bus Topology**
-- Layout :Linear network where all devices share a single communication line.
-- Key Features:
+**Layout** :Linear network where all devices share a single communication line.
+**Key Features**:
   
-*Single backbone cable connecting all nodes
-*Data travels in both directions but only one device can send at a time
-*Cost-effective but single point of failure
+-Single backbone cable connecting all nodes
+-Data travels in both directions but only one device can send at a time
+-Cost-effective but single point of failure
             
 
 2. **Mesh Topology**
-- Layout : Fully connected network where each device connects to every other device.
-- Key Features :
-Multiple paths for data transmission
-High cabling complexity and cost
-High redundancy and reliability
+** Layout** : Fully connected network where each device connects to every other device.
+**Key Features** :
+-Multiple paths for data transmission
+-High cabling complexity and cost
+-High redundancy and reliability
   
-3. **Star Topology**
-- Layout: All devices connect to a cental switch.
-- Key Features:
-*Centralized management
-*Easy to troubleshoot
-*Single point of failure at the center
+4. **Star Topology**
+**Layout**: All devices connect to a cental switch.
+**Key Features**:
+-Centralized management
+-Easy to troubleshoot
+-Single point of failure at the center
 
 4. **Ring Topology**
-- Layout : Each device connects to two others, forming a closed loop.
-- Key Features:
-*Equal access to all devices
-*Unidirectional or bidirectional data flow
-*Token passing mechanism
+**Layout** : Each device connects to two others, forming a closed loop.
+**Key Features**:
+-Equal access to all devices
+-Unidirectional or bidirectional data flow
+-Token passing mechanism
 
 5. **Extended Star Topology**
-- Layout : Hierarchical star topology with multiple levels of switches.
-- key Features:
-*Multiple layers of hierarchy
-*Scalable design
-*Improved fault isolation
+**Layout** : Hierarchical star topology with multiple levels of switches.
+**key Features**:
+-Multiple layers of hierarchy
+-Scalable design
+-Improved fault isolation
 
 **Hybrid Topology**
 -A hybrid topology combines all different network topologies together to create a more efficient and reliable network. 
@@ -91,7 +91,8 @@ network and allows for tailored security policies for each department's specific
 - Port security configurations
 
 **Security Configuration**
-**Router  and Middle switch Password Configuration**
+**Router Password Configuration**
+
 <img width="867" height="848" alt="PASWORD SECURITY FOR ROUTER" src="https://github.com/user-attachments/assets/20530f44-91f5-47c5-82eb-f0d0c71ce904" />
 
 **Conclusion**
