@@ -85,11 +85,15 @@ This VLAN strategy ensures that devices within each topology can communicate eff
 enhancing both security and network performance. The Star topology in the Lecture Room uses VLAN 5, the Ring topology in the Office 
 uses VLAN 10, the Extended Star topology in the Science Building uses VLAN 15, the Mesh topology in the Computer Lab uses VLAN 20,
 and the Bus topology in the Library uses VLAN 25. This logical separation prevents broadcast storms from propagating across the entire
-network and allows for tailored security policies for each department's specific needs.
+network and allows for tailored security policies for each department's specific needs.Each switch maintains a complete VLAN database 
+containing all five VLANs, but individual ports are assigned to specific VLANs based on their topology and location. This approach 
+provides centralized VLAN management while maintaining logical segmentation.
 
 **VLAN Configued in a star topology
 
 <img width="873" height="885" alt="VLAN CONFIGURED" src="https://github.com/user-attachments/assets/0ff99848-0fec-418b-9fe3-ab7201b925fc" />
+
+**The Trunk Ports**: Carry multiple VLANs between switches and routers
 
 **Services Implemented**
 
