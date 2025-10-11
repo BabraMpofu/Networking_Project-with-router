@@ -31,7 +31,7 @@ High redundancy and reliability
 4. **Ring Topology**
 - Layout : Each device connects to two others, forming a closed loop.
 - Key Features:
- *Equal access to all devices
+*Equal access to all devices
 *Unidirectional or bidirectional data flow
 *Token passing mechanism
 
