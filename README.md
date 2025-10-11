@@ -6,10 +6,10 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 
 **Five Topologies**
 
-1.**Bus Topology**
-  - **Layout** :Linear network where all devices share a single communication line.
+ 1.**Bus Topology**
+   - **Layout** :Linear network where all devices share a single communication line.
 
-  - **Key Features**:
+   - **Key Features**:
     
      *Single backbone cable connecting all nodes
     
@@ -113,9 +113,11 @@ network and allows for tailored security policies for each department's specific
 **Testing and verification**
 
 **Pinging IPv4**
+
 <img width="875" height="891" alt="pinging ipv4" src="https://github.com/user-attachments/assets/1c8b1f2a-e45c-4ea0-bfb0-be964af294ac" />
 
 **Pinging IPv6**
+
 <img width="871" height="885" alt="pinging IPV6" src="https://github.com/user-attachments/assets/04d7ca6c-046b-4af8-8488-1fcfc1a877ec" />
 
 
