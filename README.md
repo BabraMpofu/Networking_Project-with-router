@@ -189,3 +189,34 @@ This project successfully demonstrates comprehensive network topology implementa
 VLAN segmentation, and basic security measures. The hybrid topology shows effective integration of multiple network designs for optimal performance
 and reliability in a real-world educational institution scenario.
 
+
+
+
+**IPv6 Subnetting Project Documentation**
+
+**Project Overview**
+
+This project demonstrates the configuration and subnetting of an IPv6 network using a router and four end devices.
+The objective was to apply IPv6 subnetting to divide a  network address into smaller, manageable subnets for different departments.
+
+**Devices Used**
+- **1 Router** - Handles inter-subnet routing
+
+- **4 End Devices** - Divided into two separate subnets
+
+  
+
+<img width="1912" height="963" alt="TOPOLOGY PART 2" src="https://github.com/user-attachments/assets/b1bc07dc-bf44-4cfa-b61d-476029ca6e37" />
+
+  
+
+**Base IPv6 Network**
+
+**Original IPv6 Address**: 2001:2A1:BAD::/64
+- This main network was subnetted into smaller subnets to accommodate different groups of devices.
+  
+Subnetting Methodology
+Subnet Allocation Strategy
+TUT Department: Assigned the 11th subnet from the base address
+
+NWU Department: Assigned the 75th subnet from the base address
