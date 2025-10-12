@@ -158,6 +158,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 **Testing and verification**
 
 **Basic Connectivity Tests**
+
 1. **Interface Status Verification**
 - Verify all physical interfaces and subinterfaces are administratively UP/UP
 
@@ -181,6 +182,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 
 
 **Troubleshooting Checklist**
+
 
 **1.If Intra-VLAN Communication Fails**:
 - Verify switch port VLAN assignments
@@ -208,7 +210,23 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 - Check for native VLAN mismatches
 
 - Confirm physical connectivity
+
+
+ **Expected Results**
+**Successful Tests**:
+✅ Devices can ping their default gateway
+
+✅ Devices within same VLAN can communicate
+
+✅ Devices in different VLANs can communicate
+
+✅ Both IPv4 and IPv6 work simultaneously
+
+✅ No packet loss or interface errors
+
+  
 **Conclusion**
+
 
 This project successfully demonstrates comprehensive network topology implementation with advanced features including dual-stack IP configuration, 
 VLAN segmentation, and basic security measures. The hybrid topology shows effective integration of multiple network designs for optimal performance
@@ -261,7 +279,6 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
 
 **Network Topology**
 
-<img width="1912" height="963" alt="TOPOLOGY PART 2" src="https://github.com/user-attachments/assets/dddf9f7b-69cc-4fec-9727-6ecedf53d258" />
 
 **Router**: Acts as the gateway for both subnets and handles inter-subnet communication.
 
@@ -311,13 +328,13 @@ After assigning subnets, devices in different IPv6 networks could not communicat
 This issue occurred because IPv6 routing was not yet enabled on the router.
 To resolve it, I enabled IPv6 routing using the following command:
 
-ipv6 unicast-routing
-<img width="882" height="886" alt="part 2 ipv6 configuration command" src="https://github.com/user-attachments/assets/b5fd3a79-650b-4d67-a590-fd592b738568" />
+**ipv6 unicast-routing**
+
 
 
 **Testing**
 
-<img width="875" height="827" alt="TESTING PART 2" src="https://github.com/user-attachments/assets/91728566-81c4-48bb-b68b-3ce1cfc5dc12" />
+
 
 
 **Conclusion**
