@@ -85,7 +85,7 @@ It takes the best features from different designs and merges them into one super
 
 
 
-**VLAN Segmentation**
+**VLAN Configuration**
 
 I assigned each topology to a specific VLANs to provide logical segmentation and security isolation between different network areas.
 This VLAN strategy ensures that devices within each topology can communicate efficiently while being isolated from other topologies, 
