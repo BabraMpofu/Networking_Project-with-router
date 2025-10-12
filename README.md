@@ -292,6 +292,12 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
 - Two PCs under the NWU subnet
 
 
+
+<img width="790" height="748" alt="IP ADDRESS PART 2" src="https://github.com/user-attachments/assets/17195b42-43a7-4004-822f-9a18a09b9706" />
+
+  
+
+
 **Implementation Steps**
 - **Base Network Analysis**: Started with 2001:2A1:BAD::/64
 
