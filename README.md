@@ -68,7 +68,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 It takes the best features from different designs and merges them into one superior network structure.
 
 
-<img width="1913" height="957" alt="babra_Mpofu_Hybrid!!" src="https://github.com/user-attachments/assets/4fc0e084-7811-4fe0-8cd7-51933be793a5" />
+
 
 
 **IP Address Tables**
@@ -97,9 +97,7 @@ containing all five VLANs, but individual ports are assigned to specific VLANs b
 provides centralized VLAN management while maintaining logical segmentation.
 
 
-**VLAN Configuration (Example in a star topology)**
 
-<img width="883" height="896" alt="configuration of a vlan" src="https://github.com/user-attachments/assets/94adbf2b-03aa-4a6d-870c-49f13e2c42c8" />
 
 
 **VLAN Status in a star topology**
