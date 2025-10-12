@@ -78,10 +78,6 @@ It takes the best features from different designs and merges them into one super
 
 <img width="1140" height="718" alt="ipv6 table" src="https://github.com/user-attachments/assets/699edb25-d2d2-44b9-abbf-b5fcb566b02b" />
 
-**Router Configuration**
-
-
-<img width="871" height="892" alt="routing" src="https://github.com/user-attachments/assets/901b15d4-fee7-4fb1-8708-42563a4d4b8e" />
 
 
 
@@ -97,7 +93,8 @@ containing all five VLANs, but individual ports are assigned to specific VLANs b
 provides centralized VLAN management while maintaining logical segmentation.
 
 
-
+**Router Configuration**
+The router configuration implements a "router-on-a-stick" topology, where a single physical interface (GigabitEthernet0/0) is connected to a switch port configured in trunk mode, allowing it to carry traffic for multiple VLANs. The router interface is logically divided into subinterfaces, each assigned to a specific VLAN using 802.1Q tagging and serving as that VLAN's default gateway. With both IPv4 and IPv6 addresses assigned in an organized scheme, this setup provides dual-stack inter-VLAN routing, enabling seamless communication between the different logical networks across the single, shared physical link
 
 
 **VLAN Status in a star topology**
@@ -119,7 +116,6 @@ provides centralized VLAN management while maintaining logical segmentation.
 - Accessible via both IPv4 and IPv6
 - Basic web interface for monitoring
   
-<img width="867" height="823" alt="HTTP" src="https://github.com/user-attachments/assets/c8f9cab8-c359-40f2-b96d-aa14d5321447" />
 
 
 **DNS Server**
@@ -128,7 +124,6 @@ provides centralized VLAN management while maintaining logical segmentation.
  - Forward and reverse lookup zones
  - Supports both IPv4 and IPv6 queries
 
-<img width="867" height="882" alt="DNS SERVER" src="https://github.com/user-attachments/assets/0ee8dcbf-ec1d-4900-9957-67fef768d073" />
 
 
 **Security Implementation**
@@ -140,7 +135,7 @@ provides centralized VLAN management while maintaining logical segmentation.
  - Enable secret password
  - SSH/Telnet access restrictions
 
-<img width="882" height="890" alt="router password" src="https://github.com/user-attachments/assets/5f24fbe7-43d7-4561-ab69-799aa3814a6d" />
+
    
 
 2.**Switch Security:**
@@ -148,7 +143,6 @@ provides centralized VLAN management while maintaining logical segmentation.
 - VLAN access controls
 - Port security configurations
 
-<img width="871" height="732" alt="switch security" src="https://github.com/user-attachments/assets/9036c93e-c640-4f88-937c-6388dd1d6bff" />
 
 
 
