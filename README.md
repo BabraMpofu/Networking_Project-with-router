@@ -212,7 +212,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 - Confirm physical connectivity
 
 
- **Expected Results**
+ 
 **Successful Tests**:
 
 ✅ Devices can ping their default gateway
@@ -292,8 +292,8 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
 - Two PCs under the NWU subnet
 
 
+<img width="772" height="737" alt="IP ADDRESS PART 2" src="https://github.com/user-attachments/assets/613fc1f1-e337-4d09-bdb6-f5c101f4d6df" />
 
-<img width="790" height="748" alt="IP ADDRESS PART 2" src="https://github.com/user-attachments/assets/17195b42-43a7-4004-822f-9a18a09b9706" />
 
   
 
