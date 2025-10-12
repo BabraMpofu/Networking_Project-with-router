@@ -78,6 +78,11 @@ It takes the best features from different designs and merges them into one super
 
 <img width="1140" height="718" alt="ipv6 table" src="https://github.com/user-attachments/assets/699edb25-d2d2-44b9-abbf-b5fcb566b02b" />
 
+**Router Configuration**
+
+<img width="871" height="892" alt="routing" src="https://github.com/user-attachments/assets/901b15d4-fee7-4fb1-8708-42563a4d4b8e" />
+
+
 **VLAN Segmentation**
 
 I assigned each topology to a specific VLANs to provide logical segmentation and security isolation between different network areas.
@@ -103,12 +108,14 @@ provides centralized VLAN management while maintaining logical segmentation.
 
 **Services Implemented**
 
+
 **HTTP Server**
 - Web services for network management
 - Accessible via both IPv4 and IPv6
 - Basic web interface for monitoring
   
 <img width="867" height="823" alt="HTTP" src="https://github.com/user-attachments/assets/c8f9cab8-c359-40f2-b96d-aa14d5321447" />
+
 
 **DNS Server**
 
