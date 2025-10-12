@@ -97,7 +97,7 @@ containing all five VLANs, but individual ports are assigned to specific VLANs b
 provides centralized VLAN management while maintaining logical segmentation.
 
 
-**VLAN Configuration in a star topology**
+**VLAN Configuration (Example in a star topology)**
 
 <img width="883" height="896" alt="configuration of a vlan" src="https://github.com/user-attachments/assets/94adbf2b-03aa-4a6d-870c-49f13e2c42c8" />
 
