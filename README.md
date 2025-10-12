@@ -182,7 +182,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 
 **Troubleshooting Checklist**
 
-**If Intra-VLAN Communication Fails**:
+**1.If Intra-VLAN Communication Fails**:
 - Verify switch port VLAN assignments
 
 - Check device IP addresses and subnet masks
@@ -191,7 +191,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 
 - Verify devices are using the correct default gateway
 
-**If Inter-VLAN Communication Fails**:
+**2.If Inter-VLAN Communication Fails**:
 - Verify router subinterface configurations
 
 - Check trunk port configuration on switch
@@ -200,7 +200,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 
 - Verify routing is enabled on the router
 
-**If Trunk Link Fails**:
+**3.If Trunk Link Fails**:
 - Ensure both ends are configured as trunk ports
 
 - Verify allowed VLANs on trunk port
