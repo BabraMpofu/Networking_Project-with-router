@@ -214,6 +214,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 
  **Expected Results**
 **Successful Tests**:
+
 ✅ Devices can ping their default gateway
 
 ✅ Devices within same VLAN can communicate
@@ -303,8 +304,10 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
    *NWU: 75th subnet → 2001:2A1:BAD:4A::/64
 
 - **Device Configuration**: Assigned sequential IP addresses within each subnet
+  
 
-- **Routing Configuration**: Set up inter-subnet routing on the router
+- **Routing Configuration**
+  To configure IPv6 addresses on the router, global configuration mode was accessed and each specific interface was selected. Using the ipv6 address command followed by the full address and prefix length, the global unicast addresses were assigned to the corresponding router interfaces serving each subnet. For the TUT department, the GigabitEthernet interface was configured with 2001:2A1:BAD::A::1/64, and for the NWU department, the second interface was set with 2001:2A1:BAD:4A::1/64, establishing them as the default gateways for their respective subnets.
 
 
 
@@ -328,12 +331,15 @@ After assigning subnets, devices in different IPv6 networks could not communicat
 This issue occurred because IPv6 routing was not yet enabled on the router.
 To resolve it, I enabled IPv6 routing using the following command:
 
-**ipv6 unicast-routing**
+**Testing and Verification: IPv6 Subnet Implementation**
 
+**IPv6 Subnet Connectivity Tests**
 
+The IPv6 subnet implementation was rigorously tested to validate proper network segmentation and inter-subnet routing. Initial connectivity checks focused on intra-subnet communication, where devices within the same IPv6 subnet successfully pinged each other, confirming basic layer 2 functionality within each /64 subnet. Subsequent tests verified that all devices could communicate with their respective default gateways using the global unicast addresses, ensuring proper router interface configuration for each subnet.
 
-**Testing**
+**Inter-Subnet Routing Validation**
 
+Critical testing involved inter-subnet communication between the CSE and BBA departments. Initial attempts failed due to the router's IPv6 routing being disabled by default. After enabling IPv6 unicast routing, comprehensive tests confirmed that devices from the 2001:2A1:BAD::A::/64 subnet successfully communicated with devices in the 2001:2A1:BAD:4A::/64 subnet, validating the router's ability to route between different IPv6 subnets. Both IPv6 ping and traceroute commands confirmed the expected path through the router's interfaces, demonstrating successful implementation of the IPv6 subnetting scheme.
 
 
 
