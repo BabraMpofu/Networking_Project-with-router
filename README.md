@@ -108,7 +108,8 @@ provides centralized VLAN management while maintaining logical segmentation.
 
 **The Trunk Ports**: Carry multiple VLANs between switches and routers
 
-<img width="592" height="235" alt="trunk" src="https://github.com/user-attachments/assets/795d63f7-1c06-494f-ad5d-02b62f896a7f" />
+
+<img width="857" height="380" alt="trunk" src="https://github.com/user-attachments/assets/e6c7fa82-4700-4dde-a3d6-a9bb17c91878" />
 
 
 **Services Implemented**
