@@ -149,12 +149,12 @@ provides centralized VLAN management while maintaining logical segmentation.
 
 
 **Implementation Challenges**
-1. IPv4 Subnet Mask Configuration
+1.** IPv4 Subnet Mask Configuration**
   - **Problem**: Initially I used 255.255.0.0 (/16) subnet mask causing routing issues between VLANs
   - **Solution**: Changed to 255.255.255.0 (/24) for clearer subnet separation and better inter-VLAN routing
   - **Result**: Simplified configuration and improved cross-subnet communication
 
-2. Switch-Router Trunk Configuration
+2. **Switch-Router Trunk Configuration**
   - **Problem**: Middle switch port was in access mode instead of trunk mode, blocking inter-VLAN traffic
   - **Solution**: Reconfigured the interface as a trunk port to carry multiple VLANs
   - **Result**: Restored proper communication between all VLANs and topologies
