@@ -142,6 +142,9 @@ provides centralized VLAN management while maintaining logical segmentation.
  - Enable secret password
  - SSH/Telnet access restrictions
 
+<img width="882" height="890" alt="router password" src="https://github.com/user-attachments/assets/5f24fbe7-43d7-4561-ab69-799aa3814a6d" />
+   
+
 2.**Switch Security:**
 - Central switch password protection
 - VLAN access controls
