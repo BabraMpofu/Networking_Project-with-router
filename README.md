@@ -274,6 +274,11 @@ ipv6 unicast-routing
 <img width="882" height="886" alt="part 2 ipv6 configuration command" src="https://github.com/user-attachments/assets/b5fd3a79-650b-4d67-a590-fd592b738568" />
 
 
+**Testing**
+
+<img width="875" height="827" alt="TESTING PART 2" src="https://github.com/user-attachments/assets/91728566-81c4-48bb-b68b-3ce1cfc5dc12" />
+
+
 **Conclusion**
 
 This project successfully demonstrated how to perform IPv6 subnetting and configure multiple subnets within a network.
