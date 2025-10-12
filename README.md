@@ -80,7 +80,9 @@ It takes the best features from different designs and merges them into one super
 
 **Router Configuration**
 
+
 <img width="871" height="892" alt="routing" src="https://github.com/user-attachments/assets/901b15d4-fee7-4fb1-8708-42563a4d4b8e" />
+
 
 
 **VLAN Segmentation**
