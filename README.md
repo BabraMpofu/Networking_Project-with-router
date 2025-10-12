@@ -148,8 +148,10 @@ provides centralized VLAN management while maintaining logical segmentation.
 - Port security configurations
 
 
+
 **Implementation Challenges**
-1.** IPv4 Subnet Mask Configuration**
+
+1.**IPv4 Subnet Mask Configuration**
   - **Problem**: Initially I used 255.255.0.0 (/16) subnet mask causing routing issues between VLANs
   - **Solution**: Changed to 255.255.255.0 (/24) for clearer subnet separation and better inter-VLAN routing
   - **Result**: Simplified configuration and improved cross-subnet communication
