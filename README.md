@@ -199,24 +199,82 @@ and reliability in a real-world educational institution scenario.
 This project demonstrates the configuration and subnetting of an IPv6 network using a router and four end devices.
 The objective was to apply IPv6 subnetting to divide a  network address into smaller, manageable subnets for different departments.
 
-**Devices Used**
-- **1 Router** - Handles inter-subnet routing
-
-- **4 End Devices** - Divided into two separate subnets
 
   
-
-<img width="1912" height="963" alt="TOPOLOGY PART 2" src="https://github.com/user-attachments/assets/b1bc07dc-bf44-4cfa-b61d-476029ca6e37" />
-
-  
-
 **Base IPv6 Network**
 
 **Original IPv6 Address**: 2001:2A1:BAD::/64
 - This main network was subnetted into smaller subnets to accommodate different groups of devices.
   
-Subnetting Methodology
-Subnet Allocation Strategy
-TUT Department: Assigned the 11th subnet from the base address
+**Subnetting Methodology**
 
-NWU Department: Assigned the 75th subnet from the base address
+**Subnet Allocation Strategy**
+- **TUT Department**: Assigned the 11th subnet from the base address
+
+- **NWU Department**: Assigned the 75th subnet from the base address
+
+
+**Subnet Calculation Process**
+The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits from the host portion to create multiple /64 subnets.
+
+
+**Network Topology**
+
+<img width="1912" height="963" alt="TOPOLOGY PART 2" src="https://github.com/user-attachments/assets/dddf9f7b-69cc-4fec-9727-6ecedf53d258" />
+
+**Router**: Acts as the gateway for both subnets and handles inter-subnet communication.
+
+**Devices**: Four end PCs connected to 2 switches, then the two switches are connected to the router.
+
+**Connections**:
+
+- Two PCs under the TUT subnet
+
+- Two PCs under the NWU subnet
+
+
+**Implementation Steps**
+- **Base Network Analysis**: Started with 2001:2A1:BAD::/64
+
+- **Subnet Planning**: Determined departmental requirements
+
+- **Subnet Allocation**:
+
+   *TTU: 11th subnet → 2001:2A1:BAD::A::/64
+
+   *NWU: 75th subnet → 2001:2A1:BAD:4A::/64
+
+- **Device Configuration**: Assigned sequential IP addresses within each subnet
+
+- **Routing Configuration**: Set up inter-subnet routing on the router
+
+
+
+**Key Features**
+- **Hierarchical Addressing**: Logical subnet allocation based on departmental needs
+
+- **Scalable Design**: Easy to add more subnets for additional departments
+
+- **Efficient Resource Utilization**: Proper IPv6 address space management
+
+
+**Challenges Faced**
+
+1. **IPv6 Subnetting Complexity**
+Initially, determining the correct subnets from the main /64 address (2001:2A1:BAD::/64) was challenging.
+It required careful calculation to correctly allocate the 11th subnet to the CSE network and the 75th subnet to the BBA network.
+This step was crucial to ensure proper address segmentation and avoid overlapping subnets.
+
+2. **Device Communication Setup**
+After assigning subnets, devices in different IPv6 networks could not communicate initially.
+This issue occurred because IPv6 routing was not yet enabled on the router.
+To resolve it, I enabled IPv6 routing using the following command:
+
+ipv6 unicast-routing
+<img width="882" height="886" alt="part 2 ipv6 configuration command" src="https://github.com/user-attachments/assets/b5fd3a79-650b-4d67-a590-fd592b738568" />
+
+
+**Conclusion**
+
+This project successfully demonstrated how to perform IPv6 subnetting and configure multiple subnets within a network.
+By assigning different subnets to separate departments (CSE and BBA), the setup allowed for organized addressing and efficient inter-device communication.
