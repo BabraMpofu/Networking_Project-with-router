@@ -157,22 +157,78 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
     
 **Testing and verification**
 
-**Pinging IPv4**
+**Basic Connectivity Tests**
+1. **Interface Status Verification**
+- Verify all physical interfaces and subinterfaces are administratively UP/UP
 
-<img width="875" height="891" alt="pinging ipv4" src="https://github.com/user-attachments/assets/1c8b1f2a-e45c-4ea0-bfb0-be964af294ac" />
+- Check for any interface errors or packet drops
+
+- Confirm VLAN encapsulation is properly applied to each subinterface
+
+2. **Local Subnet Connectivity**
+- Test communication between devices within the same VLAN
+
+- Verify devices can ping their default gateway (router subinterface)
+
+- Check IPv4 and IPv6 connectivity separately within each VLAN
+
+3.**Inter-VLAN Routing Tests**
+- Test communication between devices in different VLANs (e.g., VLAN 5 to VLAN 10)
+
+- Verify router is properly routing between subinterfaces
+
+- Test both IPv4 and IPv6 inter-VLAN communication 
 
 
-**Pinging IPv6**
+**Troubleshooting Checklist**
 
-<img width="871" height="885" alt="pinging IPV6" src="https://github.com/user-attachments/assets/04d7ca6c-046b-4af8-8488-1fcfc1a877ec" />
+**If Intra-VLAN Communication Fails**:
+- Verify switch port VLAN assignments
 
+- Check device IP addresses and subnet masks
 
+- Confirm switch port is in the correct VLAN
 
+- Verify devices are using the correct default gateway
+
+**If Inter-VLAN Communication Fails**:
+- Verify router subinterface configurations
+
+- Check trunk port configuration on switch
+
+- Confirm VLAN encapsulation matches on both ends
+
+- Verify routing is enabled on the router
+
+**If Trunk Link Fails**:
+- Ensure both ends are configured as trunk ports
+
+- Verify allowed VLANs on trunk port
+
+- Check for native VLAN mismatches
+
+- Confirm physical connectivity
 **Conclusion**
 
 This project successfully demonstrates comprehensive network topology implementation with advanced features including dual-stack IP configuration, 
 VLAN segmentation, and basic security measures. The hybrid topology shows effective integration of multiple network designs for optimal performance
 and reliability in a real-world educational institution scenario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
