@@ -94,17 +94,10 @@ provides centralized VLAN management while maintaining logical segmentation.
 
 
 **Router Configuration**
+
 The router configuration implements a "router-on-a-stick" topology, where a single physical interface (GigabitEthernet0/0) is connected to a switch port configured in trunk mode, allowing it to carry traffic for multiple VLANs. The router interface is logically divided into subinterfaces, each assigned to a specific VLAN using 802.1Q tagging and serving as that VLAN's default gateway. With both IPv4 and IPv6 addresses assigned in an organized scheme, this setup provides dual-stack inter-VLAN routing, enabling seamless communication between the different logical networks across the single, shared physical link
 
 
-**VLAN Status in a star topology**
-
-<img width="873" height="885" alt="VLAN CONFIGURED" src="https://github.com/user-attachments/assets/0ff99848-0fec-418b-9fe3-ab7201b925fc" />
-
-**The Trunk Ports**: Carry multiple VLANs between switches and routers
-
-
-<img width="857" height="316" alt="trunk" src="https://github.com/user-attachments/assets/08a665cc-e98f-4153-ae75-182614e1d609" />
 
 
 
