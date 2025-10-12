@@ -107,12 +107,17 @@ provides centralized VLAN management while maintaining logical segmentation.
 - Web services for network management
 - Accessible via both IPv4 and IPv6
 - Basic web interface for monitoring
+  
+<img width="867" height="823" alt="HTTP" src="https://github.com/user-attachments/assets/c8f9cab8-c359-40f2-b96d-aa14d5321447" />
 
 **DNS Server**
 
  - Dual-stack DNS resolution
  - Forward and reverse lookup zones
  - Supports both IPv4 and IPv6 queries
+
+<img width="867" height="882" alt="DNS SERVER" src="https://github.com/user-attachments/assets/0ee8dcbf-ec1d-4900-9957-67fef768d073" />
+
 
 **Security Implementation**
 
