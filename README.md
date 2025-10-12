@@ -252,7 +252,7 @@ and reliability in a real-world educational institution scenario.
 
 
 
-**IPv6 Subnetting Project Documentation**
+**IPv6 Subnetting Project Documentation Part 2**
 
 **Project Overview**
 
