@@ -150,6 +150,7 @@ provides centralized VLAN management while maintaining logical segmentation.
 - VLAN access controls
 - Port security configurations
 
+<img width="871" height="732" alt="switch security" src="https://github.com/user-attachments/assets/9036c93e-c640-4f88-937c-6388dd1d6bff" />
 
 
 **Implementation Challenges**
