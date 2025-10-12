@@ -153,6 +153,8 @@ provides centralized VLAN management while maintaining logical segmentation.
 <img width="871" height="732" alt="switch security" src="https://github.com/user-attachments/assets/9036c93e-c640-4f88-937c-6388dd1d6bff" />
 
 
+
+
 **Implementation Challenges**
 
 1.**IPv4 Subnet Mask Configuration**
@@ -164,6 +166,7 @@ provides centralized VLAN management while maintaining logical segmentation.
   - **Problem**: Middle switch port was in access mode instead of trunk mode, blocking inter-VLAN traffic
   - **Solution**: Reconfigured the interface as a trunk port to carry multiple VLANs
   - **Result**: Restored proper communication between all VLANs and topologies
+
 
 
     
