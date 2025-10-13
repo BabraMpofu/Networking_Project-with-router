@@ -17,6 +17,9 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
      *Data travels in both directions but only one device can send at a time
 
      *Cost-effective but single point of failure
+     
+     <img width="1374" height="752" alt="Screenshot 2025-10-12 182500" src="https://github.com/user-attachments/assets/693a2866-d7d3-4579-9c6c-e317c9af5e86" />
+
 
 2.**Mesh Topology**
    - **Layout** : Fully connected network where each device connects to every other device.
@@ -28,6 +31,8 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
       *High cabling complexity and cost
     
       *High redundancy and reliability
+     <img width="1133" height="806" alt="Screenshot 2025-10-12 182703" src="https://github.com/user-attachments/assets/ae056219-916f-43e3-bf0a-24594021f1fe" />
+
 
 3.**Star Topology**
    - **Layout**: All devices connect to a cental switch.
@@ -39,6 +44,8 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
       *Easy to troubleshoot
   
       *Single point of failure at the center
+     <img width="1030" height="816" alt="Screenshot 2025-10-12 182851" src="https://github.com/user-attachments/assets/749cd161-57b5-4977-860c-f55ea4705efe" />
+
 
 4.**Ring Topology**
    - **Layout** : Each device connects to two others, forming a closed loop.
@@ -50,6 +57,8 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
        *Unidirectional or bidirectional data flow
       
        *Token passing mechanism
+     <img width="1019" height="830" alt="Screenshot 2025-10-12 183002" src="https://github.com/user-attachments/assets/edfd677e-63de-4c1c-b665-8eef16c43e1b" />
+
 
 5.**Extended Star Topology**
    - **Layout** : Hierarchical star topology with multiple levels of switches.
@@ -62,6 +71,8 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
       
        *Improved fault isolation
      
+     <img width="1848" height="747" alt="Screenshot 2025-10-12 183139" src="https://github.com/user-attachments/assets/8f714a15-026a-41ee-9fd2-46afa5c579f3" />
+
 
 **Hybrid Topology**
 -A hybrid topology combines all different network topologies together to create a more efficient and reliable network. 
@@ -93,14 +104,13 @@ network and allows for tailored security policies for each department's specific
 containing all five VLANs, but individual ports are assigned to specific VLANs based on their topology and location. This approach 
 provides centralized VLAN management while maintaining logical segmentation.
 
-<img width="883" height="896" alt="configuration of a vlan" src="https://github.com/user-attachments/assets/25926b90-d2c4-4806-9c88-dd7aebed4269" />
 
 
 **Router Configuration**
 
 The router configuration implements a "router-on-a-stick" topology, where a single physical interface (GigabitEthernet0/0) is connected to a switch port configured in trunk mode, allowing it to carry traffic for multiple VLANs. The router interface is logically divided into subinterfaces, each assigned to a specific VLAN using 802.1Q tagging and serving as that VLAN's default gateway. With both IPv4 and IPv6 addresses assigned in an organized scheme, this setup provides dual-stack inter-VLAN routing, enabling seamless communication between the different logical networks across the single, shared physical link.
 
-<img width="871" height="892" alt="routing" src="https://github.com/user-attachments/assets/ae8dfeae-4e08-43b2-a203-cd25bf354476" />
+
 
 
 
@@ -113,7 +123,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 - Accessible via both IPv4 and IPv6
 - Basic web interface for monitoring
   
-<img width="872" height="515" alt="http server" src="https://github.com/user-attachments/assets/5813888f-4e6a-446e-b4e7-f466367df24f" />
+
 
 **DNS Server**
 
@@ -177,9 +187,9 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 
 - Check IPv4 and IPv6 connectivity separately within each VLAN
 
-<img width="875" height="891" alt="pinging ipv4" src="https://github.com/user-attachments/assets/a0e0694b-78dc-4aae-b88b-d7d3040661b4" />
 
-<img width="871" height="885" alt="pinging IPV6" src="https://github.com/user-attachments/assets/8cdc5717-226f-4a26-bb9e-f886e6a28a04" />
+
+
 
 
 
