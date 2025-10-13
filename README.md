@@ -67,6 +67,7 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
 -A hybrid topology combines all different network topologies together to create a more efficient and reliable network. 
 It takes the best features from different designs and merges them into one superior network structure.
 
+<img width="1913" height="957" alt="babra_Mpofu_Hybrid!!" src="https://github.com/user-attachments/assets/a29330d8-e049-423b-b9ba-9fa366460194" />
 
 
 
@@ -92,11 +93,14 @@ network and allows for tailored security policies for each department's specific
 containing all five VLANs, but individual ports are assigned to specific VLANs based on their topology and location. This approach 
 provides centralized VLAN management while maintaining logical segmentation.
 
+<img width="883" height="896" alt="configuration of a vlan" src="https://github.com/user-attachments/assets/25926b90-d2c4-4806-9c88-dd7aebed4269" />
+
 
 **Router Configuration**
 
 The router configuration implements a "router-on-a-stick" topology, where a single physical interface (GigabitEthernet0/0) is connected to a switch port configured in trunk mode, allowing it to carry traffic for multiple VLANs. The router interface is logically divided into subinterfaces, each assigned to a specific VLAN using 802.1Q tagging and serving as that VLAN's default gateway. With both IPv4 and IPv6 addresses assigned in an organized scheme, this setup provides dual-stack inter-VLAN routing, enabling seamless communication between the different logical networks across the single, shared physical link.
 
+<img width="871" height="892" alt="routing" src="https://github.com/user-attachments/assets/ae8dfeae-4e08-43b2-a203-cd25bf354476" />
 
 
 
@@ -109,7 +113,7 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 - Accessible via both IPv4 and IPv6
 - Basic web interface for monitoring
   
-
+<img width="872" height="515" alt="http server" src="https://github.com/user-attachments/assets/5813888f-4e6a-446e-b4e7-f466367df24f" />
 
 **DNS Server**
 
@@ -172,6 +176,13 @@ The router configuration implements a "router-on-a-stick" topology, where a sing
 - Verify devices can ping their default gateway (router subinterface)
 
 - Check IPv4 and IPv6 connectivity separately within each VLAN
+
+<img width="875" height="891" alt="pinging ipv4" src="https://github.com/user-attachments/assets/a0e0694b-78dc-4aae-b88b-d7d3040661b4" />
+
+<img width="871" height="885" alt="pinging IPV6" src="https://github.com/user-attachments/assets/8cdc5717-226f-4a26-bb9e-f886e6a28a04" />
+
+
+
 
 3.**Inter-VLAN Routing Tests**
 - Test communication between devices in different VLANs (e.g., VLAN 5 to VLAN 10)
@@ -280,6 +291,9 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
 
 **Network Topology**
 
+<img width="1912" height="963" alt="TOPOLOGY PART 2" src="https://github.com/user-attachments/assets/5226ca02-2595-4b72-b55b-fee26005c803" />
+
+
 
 **Router**: Acts as the gateway for both subnets and handles inter-subnet communication.
 
@@ -342,6 +356,8 @@ To resolve it, I enabled IPv6 routing using the following command:ipv6 unicast-r
 **IPv6 Subnet Connectivity Tests**
 
 The IPv6 subnet implementation was rigorously tested to validate proper network segmentation and inter-subnet routing. Initial connectivity checks focused on intra-subnet communication, where devices within the same IPv6 subnet successfully pinged each other, confirming basic layer 2 functionality within each /64 subnet. Subsequent tests verified that all devices could communicate with their respective default gateways using the global unicast addresses, ensuring proper router interface configuration for each subnet.
+<img width="875" height="827" alt="TESTING PART 2" src="https://github.com/user-attachments/assets/5f34c05f-5d3b-4cac-80d9-9ba09cd3af6f" />
+
 
 **Inter-Subnet Routing Validation**
 
