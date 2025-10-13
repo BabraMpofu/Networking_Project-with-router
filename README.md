@@ -305,7 +305,7 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
 
 - **Subnet Allocation**:
 
-   *TTU: 11th subnet → 2001:2A1:BAD::A::/64
+   *TUT: 11th subnet → 2001:2A1:BAD::A::/64
 
    *NWU: 75th subnet → 2001:2A1:BAD:4A::/64
 
