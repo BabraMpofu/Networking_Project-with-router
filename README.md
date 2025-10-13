@@ -57,7 +57,9 @@ The project features dual-stack IPv4/IPv6 configuration, VLAN segmentation, and 
        *Unidirectional or bidirectional data flow
       
        *Token passing mechanism
-     <img width="1019" height="830" alt="Screenshot 2025-10-12 183002" src="https://github.com/user-attachments/assets/edfd677e-63de-4c1c-b665-8eef16c43e1b" />
+    
+     <img width="736" height="685" alt="ring final" src="https://github.com/user-attachments/assets/720b06d7-b243-4dd9-988b-99ea69c583ab" />
+
 
 
 5.**Extended Star Topology**
