@@ -95,7 +95,7 @@ provides centralized VLAN management while maintaining logical segmentation.
 
 **Router Configuration**
 
-The router configuration implements a "router-on-a-stick" topology, where a single physical interface (GigabitEthernet0/0) is connected to a switch port configured in trunk mode, allowing it to carry traffic for multiple VLANs. The router interface is logically divided into subinterfaces, each assigned to a specific VLAN using 802.1Q tagging and serving as that VLAN's default gateway. With both IPv4 and IPv6 addresses assigned in an organized scheme, this setup provides dual-stack inter-VLAN routing, enabling seamless communication between the different logical networks across the single, shared physical link
+The router configuration implements a "router-on-a-stick" topology, where a single physical interface (GigabitEthernet0/0) is connected to a switch port configured in trunk mode, allowing it to carry traffic for multiple VLANs. The router interface is logically divided into subinterfaces, each assigned to a specific VLAN using 802.1Q tagging and serving as that VLAN's default gateway. With both IPv4 and IPv6 addresses assigned in an organized scheme, this setup provides dual-stack inter-VLAN routing, enabling seamless communication between the different logical networks across the single, shared physical link.
 
 
 
@@ -335,7 +335,7 @@ This step was crucial to ensure proper address segmentation and avoid overlappin
 2. **Device Communication Setup**
 After assigning subnets, devices in different IPv6 networks could not communicate initially.
 This issue occurred because IPv6 routing was not yet enabled on the router.
-To resolve it, I enabled IPv6 routing using the following command:
+To resolve it, I enabled IPv6 routing using the following command:ipv6 unicast-routing.
 
 **Testing and Verification: IPv6 Subnet Implementation**
 
