@@ -1,4 +1,7 @@
-**Network Topology Project Documentation**
+# NETWORK TOPOLOGY DOCUMENTATION
+# INITIAL AND SURNAME : B MPOFU
+
+# PART 1
 
 **Project Overview**
 
@@ -275,7 +278,7 @@ and reliability in a real-world educational institution scenario.
 
 
 
-**IPv6 Subnetting Project Documentation Part 2**
+# IPv6 Subnetting Project Documentation Part 2
 
 **Project Overview**
 
