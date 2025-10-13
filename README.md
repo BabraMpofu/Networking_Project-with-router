@@ -329,7 +329,7 @@ The base address 2001:2A1:BAD::/64 was subdivided by borrowing additional bits f
 
 1. **IPv6 Subnetting Complexity**
 Initially, determining the correct subnets from the main /64 address (2001:2A1:BAD::/64) was challenging.
-It required careful calculation to correctly allocate the 11th subnet to the CSE network and the 75th subnet to the BBA network.
+It required careful calculation to correctly allocate the 11th subnet to the TUT network and the 75th subnet to the NWU network.
 This step was crucial to ensure proper address segmentation and avoid overlapping subnets.
 
 2. **Device Communication Setup**
@@ -345,11 +345,11 @@ The IPv6 subnet implementation was rigorously tested to validate proper network 
 
 **Inter-Subnet Routing Validation**
 
-Critical testing involved inter-subnet communication between the CSE and BBA departments. Initial attempts failed due to the router's IPv6 routing being disabled by default. After enabling IPv6 unicast routing, comprehensive tests confirmed that devices from the 2001:2A1:BAD::A::/64 subnet successfully communicated with devices in the 2001:2A1:BAD:4A::/64 subnet, validating the router's ability to route between different IPv6 subnets. Both IPv6 ping and traceroute commands confirmed the expected path through the router's interfaces, demonstrating successful implementation of the IPv6 subnetting scheme.
+Critical testing involved inter-subnet communication between the TUT and NWU departments. Initial attempts failed due to the router's IPv6 routing being disabled by default. After enabling IPv6 unicast routing, comprehensive tests confirmed that devices from the 2001:2A1:BAD::A::/64 subnet successfully communicated with devices in the 2001:2A1:BAD:4A::/64 subnet, validating the router's ability to route between different IPv6 subnets. Both IPv6 ping and traceroute commands confirmed the expected path through the router's interfaces, demonstrating successful implementation of the IPv6 subnetting scheme.
 
 
 
 **Conclusion**
 
 This project successfully demonstrated how to perform IPv6 subnetting and configure multiple subnets within a network.
-By assigning different subnets to separate departments (CSE and BBA), the setup allowed for organized addressing and efficient inter-device communication.
+By assigning different subnets to separate departments (NWU and TUT), the setup allowed for organized addressing and efficient inter-device communication.
