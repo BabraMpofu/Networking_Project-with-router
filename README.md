@@ -368,7 +368,7 @@ To resolve it, I enabled IPv6 routing using the following command:ipv6 unicast-r
 **IPv6 Subnet Connectivity Tests**
 
 The IPv6 subnet implementation was rigorously tested to validate proper network segmentation and inter-subnet routing. Initial connectivity checks focused on intra-subnet communication, where devices within the same IPv6 subnet successfully pinged each other, confirming basic layer 2 functionality within each /64 subnet. Subsequent tests verified that all devices could communicate with their respective default gateways using the global unicast addresses, ensuring proper router interface configuration for each subnet.
-<img width="875" height="827" alt="TESTING PART 2" src="https://github.com/user-attachments/assets/5f34c05f-5d3b-4cac-80d9-9ba09cd3af6f" />
+
 
 
 **Inter-Subnet Routing Validation**
